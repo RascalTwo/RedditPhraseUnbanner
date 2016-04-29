@@ -1,0 +1,10 @@
+{
+    "check_rate": 60,
+    "subreddit": "SUBREDDIT_NAME",
+    "must_match_phrase_exactly": true, //Must the comment match a phrase exactly, or is other text before and/or after the phrase allowed.
+    "unban_phrases": [
+        "List",
+        "Of",
+        "Phrases"
+    ]
+}
