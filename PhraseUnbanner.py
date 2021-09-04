@@ -12,7 +12,7 @@ class PhraseUnbanner(object):
             self._config = json.loads(config_file.read())
 
         with open("data.json", "r") as data_file:
-            self.read_comments = json.loads(data_file.read())["read_comments"]
+            self.read_comments = json.loads(data_file.read())
 
         self.token = self._get_token(self._credentials["client_id"],
                                      self._credentials["client_secret"],
